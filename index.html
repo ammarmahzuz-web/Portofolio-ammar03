@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ammar Mahzuz - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">AM</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">Tentang</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Project</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Kontak</a></li>
+                <li class="nav-item"><button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon"></i>
+                </button></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="avatar-placeholder">
+                <i class="fas fa-user"></i>
+            </div>
+            <h1 class="hero-title">Halo, Saya <span class="gradient-text">Ammar Mahzuz</span></h1>
+            <p class="hero-subtitle">Full Stack Developer | UI/UX Designer | Animator 3D</p>
+            <p class="hero-description">Mahasiswa prodi Sistem Informasi di Universitas Komputama Cilacap yang sangat antusias dalam mengembangkan ilmu. Saya spesialis dalam Web Development dan Animasi 3D, dengan passion untuk menciptakan pengalaman digital yang luar biasa.</p>
+            <div class="hero-cta">
+                <a href="#projects" class="cta-button primary">Lihat Project</a>
+                <a href="#contact" class="cta-button secondary">Hubungi Saya</a>
+            </div>
+        </div>
+        <div class="hero-animation">
+            <div class="floating-shape shape-1"></div>
+            <div class="floating-shape shape-2"></div>
+            <div class="floating-shape shape-3"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Tentang Saya</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Saya adalah mahasiswa Sistem Informasi dari Universitas Komputama Cilacap yang memiliki passion mendalam dalam teknologi dan kreativitas digital. Dengan keahlian dalam web development dan animasi 3D, saya selalu berusaha menghadirkan solusi inovatif yang menggabungkan functionality dan aesthetics.</p>
+                    <p>Perjalanan saya dimulai dengan curiosity tentang bagaimana teknologi bekerja. Kini, saya telah mengembangkan expertise dalam full-stack development, UI/UX design, dan 3D animation yang membuat saya mampu menangani project-project kompleks dari konsep hingga eksekusi.</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">Project Selesai</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">3+</span>
+                            <span class="stat-label">Tahun Belajar</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">Dedikasi</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <i class="fas fa-code"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <div class="skills-grid">
+                <!-- Web Development -->
+                <div class="skill-category">
+                    <h3 class="category-title"><i class="fas fa-globe"></i> Web Development</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">HTML</span>
+                                <span class="skill-level">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">JavaScript</span>
+                                <span class="skill-level">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Tailwind CSS</span>
+                                <span class="skill-level">88%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 88%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Design -->
+                <div class="skill-category">
+                    <h3 class="category-title"><i class="fas fa-pencil-ruler"></i> Design</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">UI/UX Design</span>
+                                <span class="skill-level">87%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 87%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Figma</span>
+                                <span class="skill-level">89%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 89%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Prototyping</span>
+                                <span class="skill-level">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Animation -->
+                <div class="skill-category">
+                    <h3 class="category-title"><i class="fas fa-film"></i> Animation & 3D</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Maya 3D</span>
+                                <span class="skill-level">86%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 86%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">3D Modeling</span>
+                                <span class="skill-level">84%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 84%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Animation</span>
+                                <span class="skill-level">88%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 88%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Project Featured</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="image-placeholder-project">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link" target="_blank">Lihat Live</a>
+                            <a href="#" class="project-link" target="_blank">Source Code</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Website SIMAK Kampus</h3>
+                        <p class="project-description">Platform website akademik yang komprehensif untuk mengelola data mahasiswa, akademik, dan administrasi kampus. Dibangun dengan teknologi modern dan user-friendly interface.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Tailwind CSS</span>
+                            <span class="tech-tag">Responsive</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="projects-cta">
+                <p>Lebih banyak project segera hadir...</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Hubungi Saya</h2>
+            <div class="contact-content">
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="Nama Anda" required class="form-input">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email Anda" required class="form-input">
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Pesan Anda" rows="5" required class="form-input"></textarea>
+                        </div>
+                        <button type="submit" class="cta-button primary">Kirim Pesan</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p><a href="mailto:ammarmahzuz@gmail.com">ammarmahzuz@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Lokasi</h4>
+                            <p>Universitas Komputama Cilacap, Indonesia</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Media Sosial</h4>
+                            <div class="social-links">
+                                <a href="#" class="social-icon" title="GitHub" target="_blank"><i class="fab fa-github"></i></a>
+                                <a href="#" class="social-icon" title="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+                                <a href="#" class="social-icon" title="LinkedIn" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                <a href="#" class="social-icon" title="YouTube" target="_blank"><i class="fab fa-youtube"></i></a>
+                                <a href="#" class="social-icon" title="TikTok" target="_blank"><i class="fab fa-tiktok"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Ammar Mahzuz. All rights reserved.</p>
+            <p>Made with <i class="fas fa-heart"></i> and passion for web development.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
